@@ -1,0 +1,62 @@
+/* body {
+    background-image: url('../DALL·E\ 2023-01-01\ 21.06.38\ -\ _An\ African\ American\ Hacker\ sitting\ at\ a\ monitor\ in\ a\ dark\ room_\ by\ Johannes\ Vermeer.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white
+  } */
+
+  /* Side bar */
+
+#background{
+  z-index: 1;
+  position: relative;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+}
+
+
+#sidebar {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+    z-index: 5;
+
+  }
+
+
+  /* Toggle button */
+  #toggle-button {
+    position: absolute;
+    top:10px;
+    left: 10px;
+    width: 55px; /* Set the width of the toggle button to 50px */
+    height: 55px;
+    background-image: url('/Untitled-1.png');
+    background-size: contain;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    z-index: 5;
+  }
+
+  ul{
+    list-style-type: none;
+    z-index: 5;
+  }
+
+  #sidebar-items {
+    margin: 40px 0;
+  }
+
